@@ -24,7 +24,7 @@ const Home = () => {
               alt="First slide"
             />
             <Carousel.Caption>
-              <h3>Let's build a career in teck... </h3>
+              <h3>Let's build a career in tech... </h3>
               <p>
                 Learn coding here and get into the tech industy with Skill Up
                 and build a career in tech in 2021 . This will open the door of
@@ -40,7 +40,7 @@ const Home = () => {
             />
 
             <Carousel.Caption>
-              <h3>Let's build a career in teck... </h3>
+              <h3>Let's build a career in tech... </h3>
               <p>
                 Learn coding here and get into the tech industy with Skill Up
                 and build a career in tech in 2021 . This will open the door of
@@ -56,7 +56,7 @@ const Home = () => {
             />
 
             <Carousel.Caption>
-              <h3>Let's build a career in teck... </h3>
+              <h3>Let's build a career in tech... </h3>
               <p>
                 Learn coding here and get into the tech industy with Skill Up
                 and build a career in tech in 2021 . This will open the door of
@@ -68,14 +68,12 @@ const Home = () => {
       </div>
 
       <div className="text-center d-flex flex-column align-items-center justify-content-center">
-        <h2 className="fw-bold mt-5">
+        <h1 className="fw-bold  mt-5">
           Explore our top <span className="text-info">courses</span>{" "}
-        </h2>
+        </h1>
         <p className="home-para text-secondary mb-5">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-          veritatis recusandae harum provident ducimus, repellendus, ea maxime
-          laborum illo eum omnis labore sunt molestiae iusto quos eius quae
-          mollitia itaque.
+          Welcome to Online Learning. You have taken the first important step in
+          your life by visiting this site. Choose your course and explore!
         </p>
       </div>
       <div>
