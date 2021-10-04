@@ -14,8 +14,12 @@ const Services = () => {
   }, []);
 
   return (
-    <div>
-      <h1>This is from services. </h1>
+    <div className="container">
+      <div className="text-center m-5">
+        <h1 className="fw-bold text-info">Top Courses </h1>
+        <h1 className="fw-bold">Our Top Online Courses</h1>
+      </div>
+
       <Row xs={1} md={3} className="g-4">
         {technologies.map((technology) => (
           <AllServiceData

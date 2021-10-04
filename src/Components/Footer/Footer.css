@@ -1,0 +1,10 @@
+.footer {
+  margin-top: 100px;
+  background-color: rgb(225, 253, 244);
+}
+
+.footer-input-btn button {
+  border-radius: 3px;
+  background-color: rgb(225, 253, 244);
+  font-weight: 500;
+}

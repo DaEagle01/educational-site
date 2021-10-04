@@ -14,39 +14,64 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
-      <Carousel fade>
-        <Carousel.Item>
-          <img className="d-block w-100" src="./img2.jpg" alt="First slide" />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src="./img4.jpg" alt="Second slide" />
+    <div className="container">
+      <div className="carousell mt-4">
+        <Carousel fade>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carousel-img"
+              src="./img2.jpg"
+              alt="First slide"
+            />
+            <Carousel.Caption>
+              <h3>Let's build a career in teck... </h3>
+              <p>
+                Learn coding here and get into the tech industy with Skill Up
+                and build a career in tech in 2021 . This will open the door of
+                numerous opportunity for you. So, Let's Go...
+              </p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carousel-img"
+              src="./img4.jpg"
+              alt="Second slide"
+            />
 
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src="./img5.jpg" alt="Third slide" />
+            <Carousel.Caption>
+              <h3>Let's build a career in teck... </h3>
+              <p>
+                Learn coding here and get into the tech industy with Skill Up
+                and build a career in tech in 2021 . This will open the door of
+                numerous opportunity for you. So, Let's Go...
+              </p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carousel-img"
+              src="./img5.jpg"
+              alt="Third slide"
+            />
 
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
-      <div>
-        <h2>
-          Explore our top online <span>courses</span>{" "}
+            <Carousel.Caption>
+              <h3>Let's build a career in teck... </h3>
+              <p>
+                Learn coding here and get into the tech industy with Skill Up
+                and build a career in tech in 2021 . This will open the door of
+                numerous opportunity for you. So, Let's Go...
+              </p>
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
+      </div>
+
+      <div className="text-center d-flex flex-column align-items-center justify-content-center">
+        <h2 className="fw-bold mt-5">
+          Explore our top <span className="text-info">courses</span>{" "}
         </h2>
-        <p>
+        <p className="home-para text-secondary mb-5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
           veritatis recusandae harum provident ducimus, repellendus, ea maxime
           laborum illo eum omnis labore sunt molestiae iusto quos eius quae

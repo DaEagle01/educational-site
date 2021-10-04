@@ -6,56 +6,44 @@ import Button from "@restart/ui/esm/Button";
 const Contact = () => {
   return (
     <div>
-      <h1>Contact us here. </h1>
+      <h1 className="contact-heading">Contact us here. </h1>
 
-      <Form>
+      <Form className="container">
         <Row className="mb-3">
           <Form.Group as={Col} controlId="formGridEmail">
-            <Form.Label>Email</Form.Label>
-            <Form.Control type="email" placeholder="Enter email" />
+            <Form.Label>Name</Form.Label>
+            <Form.Control type="email" placeholder="Enter name" />
           </Form.Group>
 
           <Form.Group as={Col} controlId="formGridPassword">
-            <Form.Label>Password</Form.Label>
-            <Form.Control type="password" placeholder="Password" />
+            <Form.Label>Email</Form.Label>
+            <Form.Control type="password" placeholder="Email" />
           </Form.Group>
         </Row>
 
         <Form.Group className="mb-3" controlId="formGridAddress1">
-          <Form.Label>Address</Form.Label>
-          <Form.Control placeholder="1234 Main St" />
+          <Form.Label>Subject</Form.Label>
+          <Form.Control placeholder="Enter subject" />
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="formGridAddress1">
+          <Form.Label> Enter Message </Form.Label>
+          <h1>
+            <textarea
+              id="w3review"
+              name="w3review"
+              rows="4"
+              cols="50"
+            ></textarea>
+          </h1>
         </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formGridAddress2">
-          <Form.Label>Address 2</Form.Label>
-          <Form.Control placeholder="Apartment, studio, or floor" />
-        </Form.Group>
-
-        <Row className="mb-3">
-          <Form.Group as={Col} controlId="formGridCity">
-            <Form.Label>City</Form.Label>
-            <Form.Control />
-          </Form.Group>
-
-          <Form.Group as={Col} controlId="formGridState">
-            <Form.Label>State</Form.Label>
-            <Form.Select defaultValue="Choose...">
-              <option>Choose...</option>
-              <option>...</option>
-            </Form.Select>
-          </Form.Group>
-
-          <Form.Group as={Col} controlId="formGridZip">
-            <Form.Label>Zip</Form.Label>
-            <Form.Control />
-          </Form.Group>
-        </Row>
+        <Row className="mb-3"></Row>
 
         <Form.Group className="mb-3" id="formGridCheckbox">
           <Form.Check type="checkbox" label="Check me out" />
         </Form.Group>
 
-        <Button variant="primary" type="submit">
+        <Button id='contact-btn' variant="primary" type="submit">
           Submit
         </Button>
       </Form>
