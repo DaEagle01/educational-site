@@ -1,6 +1,6 @@
 # Skills Up
 
-Live site link: https://blissful-dijkstra-d54461.netlify.app/
+Live site link: https://skillsupgrade.netlify.app/home
 ## Features
 
 - Brings high quality online courses
